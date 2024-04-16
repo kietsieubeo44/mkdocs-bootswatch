@@ -1,127 +1,97 @@
-title: Home
+title: Trang Chính
 
-# MkDocs Bootstrap Theme
+# Chủ Đề MkDocs Bootstrap
 
-This project provides [MkDocs] themes for the different Bootstrap themes
-provided by the [Bootswatch] project.
+Dự án này cung cấp các chủ đề [MkDocs](http://www.mkdocs.org) cho các chủ đề Bootstrap khác nhau được cung cấp bởi dự án [Bootswatch](https://bootswatch.com/).
 
+## Cài Đặt & Sử Dụng
 
-## Installation & Usage
-
-Install the collection of themes with pip, which is hopefully how you
-installed MkDocs.
+Cài đặt bộ sưu tập các chủ đề với pip, hy vọng là cách bạn đã cài đặt MkDocs.
 
     pip install mkdocs-bootswatch
 
+Sau khi cài đặt hoàn tất, chỉnh sửa tệp cấu hình [mkdocs.yml](http://www.mkdocs.org/user-guide/configuration/) của bạn và đặt [theme](http://www.mkdocs.org/user-guide/configuration/#theme) thành một trong các chủ đề Bootswatch sau đây. Danh sách đầy đủ như sau:
 
-After installation is complete, edit your [mkdocs.yml] config file and set the
-[theme] to one of the following Bootwatch themes included. The full list is as
-follows:
+- [amelia](#amelia)
+- [cerulean](#cerulean)
+- [cosmo](#cosmo)
+- [cyborg](#cyborg)
+- [flatly](#flatly)
+- [journal](#journal)
+- [readable](#readable)
+- [simplex](#simplex)
+- [slate](#slate)
+- [spacelab](#spacelab)
+- [united](#united)
+- [yeti](#yeti)
 
- - [cerulean](#cerulean)
- - [cosmo](#cosmo)
- - [cyborg](#cyborg)
- - [darkly](#darkly)
- - [flatly](#flatly)
- - [journal](#journal)
- - [litera](#litera)
- - [lumen](#lumen)
- - [lux](#lux)
- - [materia](#materia)
- - [minty](#minty)
- - [pulse](#pulse)
- - [sandstone](#sandstone)
- - [simplex](#simplex)
- - [slate](#slate)
- - [solar](#solar)
- - [spacelab](#spacelab)
- - [superhero](#superhero)
- - [united](#united)
- - [yeti](#yeti)
+Ví dụ:
 
-For example:
+    theme: amelia
 
-    theme: cerulean
-
-Or:
+Hoặc:
 
     theme: yeti
 
-As with the base `mkdocs` theme, you can request alternate colors for the
-navigation header. Allowed values are `primary` (the default), `dark`, and
-`light`:
+Ngoài ra, bạn có thể yêu cầu một thanh điều hướng đảo ngược:
 
-    theme:
-        name: cerulean
-        nav_style: dark
+    extra:
+        theme_inverse: true
 
-## Screenshots
+## Hình Ảnh Chụp Màn Hình
 
-This [documentation] is rendered with the Bootswatch [Flatly](#flatly) theme.
-Previews of the other themes can be seen below.
+Tài liệu này được hiển thị với chủ đề [Flatly](#flatly) của Bootswatch. Các hình ảnh xem trước của các chủ đề khác có thể được xem dưới đây.
+
+### Amelia
+
+![Amelia](/screenshots/amelia.png)
 
 ### Cerulean
-![Cerulean](screenshots/cerulean.png)
+
+![Cerulean](/screenshots/cerulean.png)
 
 ### Cosmo
-![Cosmo](screenshots/cosmo.png)
+
+![Cosmo](/screenshots/cosmo.png)
 
 ### Cyborg
-![Cyborg](screenshots/cyborg.png)
 
-### Darkly
-![Darkly](screenshots/darkly.png)
+![Cyborg](/screenshots/cyborg.png)
 
 ### Flatly
-![Flatly](screenshots/flatly.png)
+
+![Flatly](/screenshots/flatly.png)
 
 ### Journal
-![Journal](screenshots/journal.png)
 
-### Litera
-![Litera](screenshots/litera.png)
+![Journal](/screenshots/journal.png)
 
-### Lumen
-![Lumen](screenshots/lumen.png)
+### Readable
 
-### Lux
-![Lux](screenshots/lux.png)
-
-### Materia
-![Materia](screenshots/materia.png)
-
-### Minty
-![Minty](screenshots/minty.png)
-
-### Pulse
-![Pulse](screenshots/pulse.png)
-
-### Sandstone
-![Sandstone](screenshots/sandstone.png)
+![Readable](/screenshots/readable.png)
 
 ### Simplex
-![Simplex](screenshots/simplex.png)
+
+![Simplex](/screenshots/simplex.png)
 
 ### Slate
-![Slate](screenshots/slate.png)
 
-### Solar
-![Solar](screenshots/solar.png)
+![Slate](/screenshots/slate.png)
 
 ### Spacelab
-![Spacelab](screenshots/spacelab.png)
 
-### Superhero
-![Superhero](screenshots/superhero.png)
+![Spacelab](/screenshots/spacelab.png)
 
 ### United
-![United](screenshots/united.png)
+
+![United](/screenshots/united.png)
 
 ### Yeti
-![Yeti](screenshots/yeti.png)
 
-[Mkdocs]: https://www.mkdocs.org
-[mkdocs.yml]: https://www.mkdocs.org/user-guide/configuration/
-[theme]: https://www.mkdocs.org/user-guide/configuration/#theme
-[documentation]: https://mkdocs.github.io/mkdocs-bootstrap/
+![Yeti](/screenshots/yeti.png)
+
+[Mkdocs]: http://www.mkdocs.org
+[mkdocs.yml]: http://www.mkdocs.org/user-guide/configuration/
+[theme]: http://www.mkdocs.org/user-guide/configuration/#theme
+[documentation]: http://mkdocs.github.io/mkdocs-bootstrap/
 [Bootswatch]: https://bootswatch.com/
